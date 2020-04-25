@@ -168,8 +168,14 @@ elif count == 'AFRICA':
 
 elif count == 'USA':
     country(count,8,330654749)
+
+elif count == 'RUSSIA':
+    country(count,16,145923321)
+
+elif count == 'TURKEY':
+    country(count,14,84175495)
     
 else:
-    print("\nThe country does not exist..\n")
+    print("\nΗ χώρα ή η περιοχή που εισάγατε δεν υπάρχει..\n")
 
 input("Press enter to exit")
