@@ -10,8 +10,8 @@ from covid import Covid
 covid = Covid(source = "worldometers")
 records = covid.get_data()
 
-country = covid.get_status_by_country_name("greece")
-country
+#country = covid.get_status_by_country_name("greece")
+#country
 
 import pandas as pd
 
