@@ -85,85 +85,85 @@ if count == "WORLD":
     country(count,7,7800000000)
 
 elif count == "ITALY":
-    country(count,10,60243406)
+    country(count,10,60461826)
 
 elif count == "SPAIN":
-    country(count,9,47100400)
+    country(count,9,46754778)
     
 elif count == "GERMANY":
-    country(count,12,83149300)
+    country(count,12,83783942)
     
 elif count == 'NETHERLANDS':
-    country(count,20,17414806)
+    country(count,20,17134872)
 
 elif count == 'BELGIUM':
-    country(count,18,11524454)
+    country(count,18,11589623)
 
 elif count == "GREECE":
-    country(count,67,10742599)
+    country(count,67,10423054)
 
 elif count == "FRANCE":
-    country(count,11,64903000)
+    country(count,11,65273511)
     
 elif count == "NORWAY":
-    country(count,46,5367580)
+    country(count,46,5421241)
     
 elif count == "PORTUGAL":
-    country(count,23,10276617)
+    country(count,23,10196709)
     
 elif count == "SWEDEN":
-    country(count,27,10333456)
+    country(count,27,10099265)
     
 elif count == "DENMARK":
-    country(count,43,5822763)
+    country(count,43,5792202)
     
 elif count == "LUXEMBOURG":
-    country(count,59,613894)
+    country(count,59,625978)
     
 elif count == "FINLAND":
-    country(count,55,5528442)
+    country(count,55,5540720)
 		
 elif count == "AUSTRIA":
-    country(count,29,8902600)
+    country(count,29,9006398)
 	
 elif count == "CZECHIA":
-    country(count,48,10693939)
+    country(count,48,10708981)
 	
 elif count == "IRELAND":
-    country(count,26,6399115)
+    country(count,26,4937786)
 	
 elif count == "ICELAND":
-    country(count,72,364260)
+    country(count,72,341243)
 	
 elif count == "CYPRUS":
-    country(count,95,875900)
+    country(count,95,1207359)
 	
 elif count == "SWITZERLAND":
-    country(count,21,8570146)
+    country(count,21,8654622)
 	
 elif count == "UK":
-    country(count,13,66436000)
+    country(count,13,67886011)
 
 elif count == 'NORTH AMERICA':
-    country(count,0,579000000)
+    country(count,0,368869647)
 
 elif count == 'EUROPE':
-    country(count,1,741400000)
+    country(count,1,747636026)
 
 elif count == 'ASIA':
-    country(count,2,4463000000)
+    country(count,2,4641054775)
 
 elif count == 'SOUTH AMERICA':
-    country(count,3,422500000)
+    country(count,3,653962331)
 
 elif count == 'OCEANIA':
-    country(count,4,41570842)
+    country(count,4,42677813)
 
 elif count == 'AFRICA':
-    country(count,5,1216000000)
+    country(count,5,1340598147)
 
 elif count == 'USA':
-    country(count,8,328200000)
+    country(count,8,330654749)
     
 else:
     print("\nThe country does not exist..\n")
