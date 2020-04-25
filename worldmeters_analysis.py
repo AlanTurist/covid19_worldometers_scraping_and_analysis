@@ -5,7 +5,7 @@ import datetime
 data = datetime.datetime.now()
 data1 = data.strftime("%d-%m-%Y %H:%M:%S")
 import pandas as pd
-url = 'https://raw.githubusercontent.com/AlanTurist/worldometers_scraping_covid19/master/today_worldwide_covid19_data.csv'
+url = 'https://raw.githubusercontent.com/AlanTurist/covid19_worldometers_scraping_and_analysis/master/today_worldwide_covid19_data.csv'
 df = pd.read_csv(url,index_col=0, sep=",")
 
 count = str(input("\nΕισάγετε χώρα ή ήπειρο: "))
@@ -19,8 +19,9 @@ def country(count, x, y):
     D5 = country1['active']
     D6 = country1['critical']
     D7 = country1['new_deaths']
+    D8 = country1['total_tests']
     
-    print('\t~ Ανάλυση δεδομένων του SARS-CoV2 - ',count,'~')
+    print('\n\t~ Ανάλυση δεδομένων του SARS-CoV2 - ',count,'~')
     print('\n\t@Author: Γεώργιος Κολιού, georgios.koliou@gmail.com')
     print('\n****************************************************************************************')
     print("\n\tΣήμερα έχουμε",data1)
@@ -42,7 +43,7 @@ def country(count, x, y):
     f = (100*D3)/D1
     print("\n\t\t3.2 Η θνητότητα είναι:",'{0:.2f}'.format(f),'%')
     g = (100*D3)/y
-    print("\n\t\t3.3 Η θνησιμότητα είναι:",'{0:.4f}'.format(g),'%')
+    print("\n\t\t3.3 Η θνησιμότητα είναι:",'{0:.3f}'.format(g),'%')
     
     print('\n\t4. Ο αριθμός όσων ανάρρωσαν είναι:',D4)
     h = (100*D4)/D1
@@ -61,7 +62,10 @@ def country(count, x, y):
     
     j = ((1000000*a)/100)
     print("\n\t8. Τα κρούσματα ανά 1 εκατομμύριο πληθυσμού είναι:",'{0:.1f}'.format(j))
-    
+
+    m = (100*D1)/D8
+    print('\n\t9. Χρησιμοποιήθηκαν',D8,'συνολικά τεστ, από τα οποία το','{0:.2f}'.format(m),"% βγήκε θετικό")
+
     print('\n****************************************************************************************\n\n')
     
     import matplotlib.pyplot as plt
