@@ -21,9 +21,9 @@ def country(count, x, y):
     D7 = country1['new_deaths']
     D8 = country1['total_tests']
     
-    print('\n\t~ Ανάλυση δεδομένων του SARS-CoV2 - ',count,'~')
-    print('\n\t@Author: Γεώργιος Κολιού, georgios.koliou@gmail.com')
+    print('\n\t~ Ανάλυση δεδομένων του SARS-CoV2 - ',count,'~\n')
     print('*'*110)
+    print('\n\t@Author: Γεώργιος Κολιού, georgios.koliou@gmail.com')
     print("\n\tΣήμερα έχουμε",data1)
     print("*"*50,count,"*"*50)
     
