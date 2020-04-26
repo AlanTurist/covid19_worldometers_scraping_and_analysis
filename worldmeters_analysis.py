@@ -21,16 +21,15 @@ def country(count, x, y):
     D7 = country1['new_deaths']
     D8 = country1['total_tests']
     
-    print('\n\t~ Ανάλυση δεδομένων του SARS-CoV2 - ',count,'~\n')
+    print('\n\t~ Ανάλυση δεδομένων του SARS-CoV2 -',count,'~')
+    print('\n\t@Author: Γεώργιος Κολιού, georgios.koliou@gmail.com\n')
     print('*'*110)
-    print('\n\t@Author: Γεώργιος Κολιού, georgios.koliou@gmail.com')
-    print("\n\tΣήμερα έχουμε",data1)
-    print('\n')
+    print("\n\tΣήμερα έχουμε",data1,'\n')
     print("*"*50,count,"*"*50)
     
     print("\n\t1 Ο συνολικός αριθμός κρουσμάτων είναι:",D1)
     a = (100*D1)/y
-    print('\n\t\t1.1 Μολύνθηκε το','{0:.3f}'.format(a),'% του πληθυσμού.')
+    print('\n\t\t1.1 Μολύνθηκε το','{0:.2f}'.format(a),'% της περιοχής.')
     
     print("\n\t2. Ο αριθμός των νέων κρουσμάτων είναι:",D2)
     b = (D1 - D2)
@@ -51,7 +50,7 @@ def country(count, x, y):
         h = (100*D4)/D1
         print('\n\t\t4.1 Ανάρρωσε το','{0:.2f}'.format(h),'%')
     else:
-        print('\n\t4. Δεν υπάρχουν δεδομένα ασθενών που ανάρρωσαν..')
+        print('\n\t4. Ο αριθμός όσων ανάρρωσαν δεν διατίθεται..')
     
     print('\n\t5. Ο αριθμός των σοβαρών περιστατικών είναι:',D6)
     i = (100*D6)/D1
@@ -66,29 +65,28 @@ def country(count, x, y):
     
     j = ((1000000*a)/100)
     print("\n\t8. Τα κρούσματα ανά 1 εκατομμύριο πληθυσμού είναι:",'{0:.1f}'.format(j))
-
+    
     if D8 != 0:
         m = (100*D1)/D8
-        print('\n\t9. Πραγματοποιήθηκαν',D8,'δειγματοληψίες συνολικά, από τις οποίες το','{0:.2f}'.format(m),"% ήταν θετικές\n")
+        print('\n\t9. Πραγματοποιήθηκαν συνολικά',D8,'δειγματοληψίες, από τις οποίες το','{0:.2f}'.format(m),"% ήταν θετικές\n")
     else:
         print('\n\t9. Δεν υπάρχουν δεδομένα για δειγματοληψίες..')
     
     print('\n')
     print('*'*110)
-    print('\n\n')
     
     import matplotlib.pyplot as plt
     labels = 'DEATHS','RECOVERED','ACTIVE'
     sizes = [D3, D4, D5]
     explode = (0, 0.1, 0.1)
-    fig1, ax1 = plt.subplots(figsize = (24,12))
+    fig1,ax1 = plt.subplots(figsize = (24,12))
     ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
         shadow=True, startangle=90)
     plt.title(count, fontsize = 24) 
     ax1.legend(labels, loc = "upper right") 
     ax1.axis('equal')
     plt.show()
-
+    
 if count == "WORLD":
     country(count,7,7800000000)
 
@@ -151,9 +149,9 @@ elif count == "SWITZERLAND":
 	
 elif count == "UK":
     country(count,13,67886011)
-
+    
 elif count == 'NORTH AMERICA':
-    country(count,0,368869647)
+    country(count,0,579000000)
 
 elif count == 'EUROPE':
     country(count,1,747636026)
@@ -171,15 +169,24 @@ elif count == 'AFRICA':
     country(count,5,1340598147)
 
 elif count == 'USA':
-    country(count,8,330654749)
-
-elif count == 'RUSSIA':
-    country(count,16,145923321)
+    country(count,8,330657799)
 
 elif count == 'TURKEY':
-    country(count,14,84175495)
+    country(count,14,84339067)
+
+elif count == 'RUSSIA':
+    country(count,16,145934462)
     
 else:
-    print("\nΗ χώρα ή η περιοχή που εισάγατε δεν υπάρχει..\n")
+    print("\nΗ χώρα που εισάγατε δεν υπάρχει..\n")
 
-input("Press enter to exit")
+import os
+import sys
+
+restart = input("\n\nΑν θέλετε να δοκιμάσετε για άλλη περιοχή πατήστε 'Y' και enter.\n\nΓια να βγείτε από το πρόγραμμα πατήστε μόνο το enter: ")
+
+if restart == "Y":
+    os.execl(sys.executable, sys.executable, * sys.argv) 
+else:
+    print("\nΤο πρόγραμμα κλείνει..")
+    sys.exit(0)
