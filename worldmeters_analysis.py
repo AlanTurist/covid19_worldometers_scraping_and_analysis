@@ -63,8 +63,11 @@ def country(count, x, y):
     l = ((10000*a)/100)
     print("\n\t7. Τα κρούσματα ανά 10 χιλιάδες πληθυσμού είναι:",'{0:.1f}'.format(l))
     
-    j = ((1000000*a)/100)
-    print("\n\t8. Τα κρούσματα ανά 1 εκατομμύριο πληθυσμού είναι:",'{0:.1f}'.format(j))
+    if y > 1000000:
+        j = ((1000000*a)/100)
+        print("\n\t8. Τα κρούσματα ανά 1 εκατομμύριο πληθυσμού είναι:",'{0:.1f}'.format(j))
+    else:
+        print('\n\t8. Η περιοχή έχει πληθυσμό λιγότερο του ενός εκατομμυρίου..')
     
     if D8 != 0:
         m = (100*D1)/D8
@@ -176,6 +179,18 @@ elif count == 'TURKEY':
 
 elif count == 'RUSSIA':
     country(count,16,145934462)
+
+elif count == 'CANADA':
+    country(count,19,37742154)
+    
+elif count == 'SAN MARINO':
+    country(count,109,33931)
+    
+elif count == 'NEW ZEALAND':
+    country(count,80,4822233)
+    
+elif count == 'AUSTRALIA':
+    country(count,49,25499884)
     
 else:
     print("\nΗ χώρα που εισάγατε δεν υπάρχει..\n")
