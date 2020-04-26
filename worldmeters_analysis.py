@@ -118,28 +118,28 @@ elif count == "NORWAY":
     country(count,46,5421241)
     
 elif count == "PORTUGAL":
-    country(count,23,10196709)
+    country(count,25,10196709)
     
 elif count == "SWEDEN":
-    country(count,27,10099265)
+    country(count,26,10099265)
     
 elif count == "DENMARK":
-    country(count,43,5792202)
+    country(count,44,5792202)
     
 elif count == "LUXEMBOURG":
-    country(count,59,625978)
+    country(count,60,625978)
     
 elif count == "FINLAND":
     country(count,55,5540720)
 		
 elif count == "AUSTRIA":
-    country(count,29,9006398)
+    country(count,30,9006398)
 	
 elif count == "CZECHIA":
     country(count,48,10708981)
 	
 elif count == "IRELAND":
-    country(count,26,4937786)
+    country(count,27,4937786)
 	
 elif count == "ICELAND":
     country(count,72,341243)
@@ -184,10 +184,10 @@ elif count == 'CANADA':
     country(count,19,37742154)
     
 elif count == 'SAN MARINO':
-    country(count,109,33931)
+    country(count,108,33931)
     
 elif count == 'NEW ZEALAND':
-    country(count,80,4822233)
+    country(count,81,4822233)
     
 elif count == 'AUSTRALIA':
     country(count,49,25499884)
