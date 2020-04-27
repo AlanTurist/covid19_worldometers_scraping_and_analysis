@@ -1,6 +1,7 @@
 import datetime
 data = datetime.datetime.now()
 data1 = data.strftime("%d-%m-%Y %H:%M:%S")
+
 import pandas as pd
 url = 'https://raw.githubusercontent.com/AlanTurist/covid19_worldometers_scraping_and_analysis/master/today_worldwide_covid19_data.csv'
 df = pd.read_csv(url,index_col=0, sep=",")
