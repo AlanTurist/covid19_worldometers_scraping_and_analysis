@@ -7,9 +7,7 @@
   <br>
   <br>
   <body>
-  <center>Web scraper worldsmeter_scraper.py takes all the data from worldometers and creates the today_worldwide_covid19_data.csv data    base for all the countries daily.
-  <br>
-  And after that, worldmeters_analysis.py analyzes all the data.
+  <center>Web scraper worldsmeter_scraper.py takes all the data from worldometers and creates the today_worldwide_covid19_data.csv data       base for all the countries daily. And after that, worldmeters_analysis.py analyzes all the data.
     <br>
     <br>
     If you like to test the script, just download worldmeters_analysis.exe and run it.
