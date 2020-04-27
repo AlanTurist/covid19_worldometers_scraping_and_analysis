@@ -19,15 +19,14 @@
     <br>
     <center>Output</center>
     <br>
-    [](images/1.jpg)
-    
-    
-    
-    <center>Sources</center>
-    <br>
-        <a href="https://www.worldometers.info/coronavirus/" target="_blank">Worldometers</a>
-    <br>
-        <a href="https://pypi.org/project/covid/" target="_blank">covid 2.2.6</a>
-    </body>
-   </html>
+    <img src="https://github.com/AlanTurist/covid19_worldometers_scraping_and_analysis/blob/master/images/1.jpg" " width="500"    height="333">
+      <br>                                                                                                                                       <img src="https://github.com/AlanTurist/covid19_worldometers_scraping_and_analysis/blob/master/images/GREECE.png" " width="500" height="333">
+   
+   <center>Sources</center>
+   <br>
+       <a href="https://www.worldometers.info/coronavirus/" target="_blank">Worldometers</a>
+   <br>
+   <a href="https://pypi.org/project/covid/" target="_blank">covid 2.2.6</a>
+   </body>
+  </html>
 
