@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+  <body>
   <head>
     <h1>Worldwide data analysis for SARS Covid 2</h1>
   <center><i><img src="https://www.python.org/static/apple-touch-icon-72x72-precomposed.png"></i></center>
@@ -18,8 +19,9 @@
     <br>
     <center>Sources</center>
     <br>
-        <i><a href="https://www.worldometers.info/coronavirus/" target="_blank">Worldometers</a></i>
+        <a href="https://www.worldometers.info/coronavirus/" target="_blank">Worldometers</a>
     <br>
-        <i><a href="https://pypi.org/project/covid/" target="_blank">covid 2.2.6</a></i>
-    </html>
+        <a href="https://pypi.org/project/covid/" target="_blank">covid 2.2.6</a>
+    </body>
+   </html>
 
