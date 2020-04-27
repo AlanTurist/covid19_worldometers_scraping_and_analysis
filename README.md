@@ -18,8 +18,8 @@
     <br>
     <center>Sources</center>
     <br>
-        <i><a href="https://www.worldometers.info/coronavirus/">Worldometers</a></i>
+        <i><a href="https://www.worldometers.info/coronavirus/" target="_blank">Worldometers</a></i>
     <br>
-        <i><a href="https://pypi.org/project/covid/">covid 2.2.6</a></i>
+        <i><a href="https://pypi.org/project/covid/" target="_blank">covid 2.2.6</a></i>
     </html>
 
