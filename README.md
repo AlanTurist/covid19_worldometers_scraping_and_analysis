@@ -16,3 +16,11 @@
     <br>
     <br>
     The today_worldwide_covid19_data.csv is updated every day after 19:00.
+    <br>
+    <br>
+    <center>Sources</center>
+    <br>
+        <i><a href="https://www.worldometers.info/coronavirus/">Worldometers</a></i>
+    <br>
+        <i><a href="https://pypi.org/project/covid/">covid 2.2.6</a></i>
+
