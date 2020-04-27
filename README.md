@@ -7,7 +7,7 @@
   <br>
   <br>
   <body>
-  <center>Web scraper worldsmeter_scraper.py takes all the data from wordometers and creates the today_worldwide_covid19_data.csv data base for all the countries by <i><font color="blue">AlanTurista</font></i></center>
+  <center>Web scraper worldsmeter_scraper.py takes all the data from worldometers and creates the today_worldwide_covid19_data.csv data base for all the countries by <i><font color="blue">AlanTurista</font></i></center>
   <br>
   And after that, worldmeters_analysis.py analyzes all the data.
     <br>
