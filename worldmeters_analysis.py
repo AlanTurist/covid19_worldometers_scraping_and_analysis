@@ -15,7 +15,7 @@ elif count == "SPAIN":
     country_def.country(count,9,46754778)
     
 elif count == "GERMANY":
-    country_def.country(count,12,83783942)
+    country_def.country(count,13,83783942)
     
 elif count == 'NETHERLANDS':
     country_def.country(count,20,17134872)
@@ -36,37 +36,37 @@ elif count == "PORTUGAL":
     country_def.country(count,24,10196709)
     
 elif count == "SWEDEN":
-    country_def.country(count,28,10099265)
+    country_def.country(count,27,10099265)
     
 elif count == "DENMARK":
     country_def.country(count,44,5792202)
     
 elif count == "LUXEMBOURG":
-    country_def.country(count,60,625978)
+    country_def.country(count,62,625978)
     
 elif count == "FINLAND":
     country_def.country(count,57,5540720)
 		
 elif count == "AUSTRIA":
-    country_def.country(count,31,9006398)
+    country_def.country(count,32,9006398)
 	
 elif count == "CZECHIA":
     country_def.country(count,48,10708981)
 	
 elif count == "IRELAND":
-    country_def.country(count,27,4937786)
+    country_def.country(count,28,4937786)
 	
 elif count == "ICELAND":
-    country_def.country(count,75,341243)
+    country_def.country(count,76,341243)
 	
 elif count == "CYPRUS":
-    country_def.country(count,95,1207359)
+    country_def.country(count,97,1207359)
 	
 elif count == "SWITZERLAND":
-    country_def.country(count,22,8654622)
+    country_def.country(count,23,8654622)
 	
 elif count == "UK":
-    country_def.country(count,13,67886011)
+    country_def.country(count,12,67886011)
     
 elif count == 'NORTH AMERICA':
     country_def.country(count,0,579000000)
@@ -99,13 +99,13 @@ elif count == 'CANADA':
     country_def.country(count,18,37742154)
     
 elif count == 'SAN MARINO':
-    country_def.country(count,109,33931)
+    country_def.country(count,110,33931)
     
 elif count == 'NEW ZEALAND':
-    country_def.country(count,81,4822233)
+    country_def.country(count,82,4822233)
     
 elif count == 'AUSTRALIA':
-    country_def.country(count,49,25499884)
+    country_def.country(count,50,25499884)
     
 else:
     print("\nΗ χώρα που εισάγατε δεν υπάρχει..\n")
