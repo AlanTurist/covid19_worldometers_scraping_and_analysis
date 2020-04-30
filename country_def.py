@@ -84,6 +84,7 @@ def country(count, x, y):
     print('*'*110)
     
     import matplotlib.pyplot as plt
+
     labels = 'DEATHS','RECOVERED','ACTIVE'
     sizes = [D3, D4, D5]
     explode = (0, 0.1, 0.1)
@@ -93,4 +94,40 @@ def country(count, x, y):
     plt.title(count, fontsize = 24) 
     ax1.legend(labels, loc = "upper right") 
     ax1.axis('equal')
+    plt.show()
+
+    if D8 !=0:
+        labels = 'POPULATION','TEST'
+        sizes = [y, D8]
+        explode = (0, 0)
+        fig1,ax1 = plt.subplots(figsize = (24,12))
+        ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
+            shadow=True, startangle=90)
+        plt.title(count, fontsize = 24) 
+        ax1.legend(labels, loc = "upper right") 
+        ax1.axis('equal')
+        plt.show()
+    else:
+        pass
+
+    data = {'New Deaths': D7, 'Deaths': D3}
+    names = list(data.keys())
+    values = list(data.values())
+
+    fig, axs = plt.subplots(1, 3, figsize=(15, 9), sharey=True)
+    axs[0].bar(names, values)
+    axs[1].scatter(names, values)
+    axs[2].plot(names, values)
+    fig.suptitle('Comparison Deaths')
+    plt.show()
+
+    data = {'New Cases': D2, 'Cases': D1}
+    names = list(data.keys())
+    values = list(data.values())
+
+    fig, axs = plt.subplots(1, 3, figsize=(15, 9), sharey=True)
+    axs[0].bar(names, values)
+    axs[1].scatter(names, values)
+    axs[2].plot(names, values)
+    fig.suptitle('Comparison Cases')
     plt.show()
