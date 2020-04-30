@@ -27,7 +27,7 @@ elif count == "GREECE":
     country_def.country(count,68,10423054)
 
 elif count == "FRANCE":
-    country_def.country(count,11,65273511)
+    country_def.country(count,12,65273511)
     
 elif count == "NORWAY":
     country_def.country(count,47,5421241)
@@ -42,22 +42,22 @@ elif count == "DENMARK":
     country_def.country(count,44,5792202)
     
 elif count == "LUXEMBOURG":
-    country_def.country(count,62,625978)
+    country_def.country(count,63,625978)
     
 elif count == "FINLAND":
     country_def.country(count,57,5540720)
 		
 elif count == "AUSTRIA":
-    country_def.country(count,32,9006398)
+    country_def.country(count,34,9006398)
 	
 elif count == "CZECHIA":
-    country_def.country(count,48,10708981)
+    country_def.country(count,49,10708981)
 	
 elif count == "IRELAND":
     country_def.country(count,28,4937786)
 	
 elif count == "ICELAND":
-    country_def.country(count,76,341243)
+    country_def.country(count,78,341243)
 	
 elif count == "CYPRUS":
     country_def.country(count,97,1207359)
@@ -99,13 +99,13 @@ elif count == 'CANADA':
     country_def.country(count,18,37742154)
     
 elif count == 'SAN MARINO':
-    country_def.country(count,110,33931)
+    country_def.country(count,111,33931)
     
 elif count == 'NEW ZEALAND':
-    country_def.country(count,82,4822233)
+    country_def.country(count,84,4822233)
     
 elif count == 'AUSTRALIA':
-    country_def.country(count,50,25499884)
+    country_def.country(count,51,25499884)
     
 else:
     print("\nΗ χώρα που εισάγατε δεν υπάρχει..\n")
