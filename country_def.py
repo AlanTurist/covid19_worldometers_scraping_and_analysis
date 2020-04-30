@@ -118,7 +118,7 @@ def country(count, x, y):
     axs[0].bar(names, values)
     axs[1].scatter(names, values)
     axs[2].plot(names, values)
-    fig.suptitle('Comparison Deaths')
+    fig.suptitle('Comparison Deaths - '+ count)
     plt.show()
 
     data = {'New Cases': D2, 'Cases': D1}
@@ -129,5 +129,5 @@ def country(count, x, y):
     axs[0].bar(names, values)
     axs[1].scatter(names, values)
     axs[2].plot(names, values)
-    fig.suptitle('Comparison Cases')
+    fig.suptitle('Comparison Cases - '+ count)
     plt.show()
