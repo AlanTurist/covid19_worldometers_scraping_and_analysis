@@ -106,6 +106,9 @@ elif count == 'NEW ZEALAND':
     
 elif count == 'AUSTRALIA':
     country_def.country(count,51,25499884)
+
+elif count == 'BRAZIL':
+    country_def.country(count,17,212559417)
     
 else:
     print("\nΗ χώρα που εισάγατε δεν υπάρχει..\n")
