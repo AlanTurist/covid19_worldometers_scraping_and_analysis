@@ -6,7 +6,7 @@ import pandas as pd
 url = 'https://raw.githubusercontent.com/AlanTurist/covid19_worldometers_scraping_and_analysis/master/today_worldwide_covid19_data.csv'
 df = pd.read_csv(url,index_col=0, sep=",")
 
-def country(count, x, y):
+def country(chart, count, x, y):
     country1 = df.iloc[x]
     D1 = country1['confirmed']
     D2 = country1['new_cases']
@@ -82,24 +82,14 @@ def country(count, x, y):
     
     print('\n')
     print('*'*110)
-    
-    import matplotlib.pyplot as plt
 
-    labels = 'DEATHS','RECOVERED','ACTIVE'
-    sizes = [D3, D4, D5]
-    explode = (0, 0.1, 0.1)
-    fig1,ax1 = plt.subplots(figsize = (24,12))
-    ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
-        shadow=True, startangle=90)
-    plt.title(count, fontsize = 24) 
-    ax1.legend(labels, loc = "upper right") 
-    ax1.axis('equal')
-    plt.show()
+    if chart == "Y":
 
-    if D8 !=0:
-        labels = 'POPULATION','TEST'
-        sizes = [y, D8]
-        explode = (0, 0)
+        import matplotlib.pyplot as plt
+
+        labels = 'DEATHS','RECOVERED','ACTIVE'
+        sizes = [D3, D4, D5]
+        explode = (0, 0.1, 0.1)
         fig1,ax1 = plt.subplots(figsize = (24,12))
         ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
             shadow=True, startangle=90)
@@ -107,27 +97,42 @@ def country(count, x, y):
         ax1.legend(labels, loc = "upper right") 
         ax1.axis('equal')
         plt.show()
+
+        if D8 !=0:
+            labels = 'POPULATION','TEST'
+            sizes = [y, D8]
+            explode = (0, 0)
+            fig1,ax1 = plt.subplots(figsize = (24,12))
+            ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
+                shadow=True, startangle=90)
+            plt.title(count, fontsize = 24) 
+            ax1.legend(labels, loc = "upper right") 
+            ax1.axis('equal')
+            plt.show()
+        else:
+            pass
+
+        data = {'New Deaths': D7, 'Deaths': D3}
+        names = list(data.keys())
+        values = list(data.values())
+
+        fig, axs = plt.subplots(1, 3, figsize=(15, 9), sharey=True)
+        axs[0].bar(names, values)
+        axs[1].scatter(names, values)
+        axs[2].plot(names, values)
+        fig.suptitle('Daily Deaths Comparison - '+ count)
+        plt.show()
+
+        data = {'New Cases': D2, 'Cases': D1}
+        names = list(data.keys())
+        values = list(data.values())
+
+        fig, axs = plt.subplots(1, 3, figsize=(15, 9), sharey=True)
+        axs[0].bar(names, values)
+        axs[1].scatter(names, values)
+        axs[2].plot(names, values)
+        fig.suptitle('Daily Cases Comparison - '+ count)
+        plt.show()
     else:
         pass
-
-    data = {'New Deaths': D7, 'Deaths': D3}
-    names = list(data.keys())
-    values = list(data.values())
-
-    fig, axs = plt.subplots(1, 3, figsize=(15, 9), sharey=True)
-    axs[0].bar(names, values)
-    axs[1].scatter(names, values)
-    axs[2].plot(names, values)
-    fig.suptitle('Daily Deaths Comparison - '+ count)
-    plt.show()
-
-    data = {'New Cases': D2, 'Cases': D1}
-    names = list(data.keys())
-    values = list(data.values())
-
-    fig, axs = plt.subplots(1, 3, figsize=(15, 9), sharey=True)
-    axs[0].bar(names, values)
-    axs[1].scatter(names, values)
-    axs[2].plot(names, values)
-    fig.suptitle('Daily Cases Comparison - '+ count)
-    plt.show()
+    
