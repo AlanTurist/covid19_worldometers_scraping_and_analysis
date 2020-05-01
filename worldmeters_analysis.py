@@ -30,10 +30,10 @@ elif count == "FRANCE":
     country_def.country(count,12,65273511)
     
 elif count == "NORWAY":
-    country_def.country(count,47,5421241)
+    country_def.country(count,48,5421241)
     
 elif count == "PORTUGAL":
-    country_def.country(count,24,10196709)
+    country_def.country(count,25,10196709)
     
 elif count == "SWEDEN":
     country_def.country(count,27,10099265)
@@ -57,7 +57,7 @@ elif count == "IRELAND":
     country_def.country(count,28,4937786)
 	
 elif count == "ICELAND":
-    country_def.country(count,78,341243)
+    country_def.country(count,79,341243)
 	
 elif count == "CYPRUS":
     country_def.country(count,97,1207359)
@@ -66,7 +66,7 @@ elif count == "SWITZERLAND":
     country_def.country(count,23,8654622)
 	
 elif count == "UK":
-    country_def.country(count,12,67886011)
+    country_def.country(count,11,67886011)
     
 elif count == 'NORTH AMERICA':
     country_def.country(count,0,579000000)
@@ -102,7 +102,7 @@ elif count == 'SAN MARINO':
     country_def.country(count,111,33931)
     
 elif count == 'NEW ZEALAND':
-    country_def.country(count,84,4822233)
+    country_def.country(count,86,4822233)
     
 elif count == 'AUSTRALIA':
     country_def.country(count,51,25499884)
