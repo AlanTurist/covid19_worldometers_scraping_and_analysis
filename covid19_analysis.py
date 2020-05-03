@@ -33,7 +33,7 @@ elif count == "GERMANY":
     country_def.country(lang,chart,count,13,83783942)
     
 elif count == 'NETHERLANDS':
-    country_def.country(lang,chart,count,21,17134872)
+    country_def.country(lang,chart,count,22,17134872)
 
 elif count == 'BELGIUM':
     country_def.country(lang,chart,count,19,11589623)
@@ -45,7 +45,7 @@ elif count == "FRANCE":
     country_def.country(lang,chart,count,12,65273511)
     
 elif count == "NORWAY":
-    country_def.country(lang,chart,count,48,5421241)
+    country_def.country(lang,chart,count,49,5421241)
     
 elif count == "PORTUGAL":
     country_def.country(lang,chart,count,26,10196709)
@@ -69,7 +69,7 @@ elif count == "CZECHIA":
     country_def.country(lang,chart,count,50,10708981)
 	
 elif count == "IRELAND":
-    country_def.country(lang,chart,count,29,4937786)
+    country_def.country(lang,chart,count,28,4937786)
 	
 elif count == "ICELAND":
     country_def.country(lang,chart,count,80,341243)
@@ -123,7 +123,7 @@ elif count == 'AUSTRALIA':
     country_def.country(lang,chart,count,53,25499884)
 
 elif count == 'BRAZIL':
-    country_def.country(lang,chart,count,17,212559417)
+    country_def.country(lang,chart,count,16,212559417)
     
 else:
     print("\nArea doesn't exists..\n")
