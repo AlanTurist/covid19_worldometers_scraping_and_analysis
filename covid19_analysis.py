@@ -39,7 +39,7 @@ elif count == 'BELGIUM':
     country_def.country(lang,chart,count,19,11589623)
 
 elif count == "GREECE":
-    country_def.country(lang,chart,count,70,10423054)
+    country_def.country(lang,chart,count,71,10423054)
 
 elif count == "FRANCE":
     country_def.country(lang,chart,count,12,65273511)
