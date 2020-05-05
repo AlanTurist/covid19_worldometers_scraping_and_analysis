@@ -39,13 +39,13 @@ elif count == 'BELGIUM':
     country_def.country(lang,chart,count,19,11589623)
 
 elif count == "GREECE":
-    country_def.country(lang,chart,count,71,10423054)
+    country_def.country(lang,chart,count,72,10423054)
 
 elif count == "FRANCE":
     country_def.country(lang,chart,count,12,65273511)
     
 elif count == "NORWAY":
-    country_def.country(lang,chart,count,49,5421241)
+    country_def.country(lang,chart,count,50,5421241)
     
 elif count == "PORTUGAL":
     country_def.country(lang,chart,count,26,10196709)
@@ -60,16 +60,16 @@ elif count == "LUXEMBOURG":
     country_def.country(lang,chart,count,64,625978)
     
 elif count == "FINLAND":
-    country_def.country(lang,chart,count,57,5540720)
+    country_def.country(lang,chart,count,58,5540720)
 		
 elif count == "AUSTRIA":
     country_def.country(lang,chart,count,36,9006398)
 	
 elif count == "CZECHIA":
-    country_def.country(lang,chart,count,50,10708981)
+    country_def.country(lang,chart,count,51,10708981)
 	
 elif count == "IRELAND":
-    country_def.country(lang,chart,count,29,4937786)
+    country_def.country(lang,chart,count,31,4937786)
 	
 elif count == "ICELAND":
     country_def.country(lang,chart,count,80,341243)
@@ -78,7 +78,7 @@ elif count == "CYPRUS":
     country_def.country(lang,chart,count,98,1207359)
 	
 elif count == "SWITZERLAND":
-    country_def.country(lang,chart,count,23,8654622)
+    country_def.country(lang,chart,count,25,8654622)
 	
 elif count == "UK":
     country_def.country(lang,chart,count,11,67886011)
@@ -114,13 +114,13 @@ elif count == 'CANADA':
     country_def.country(lang,chart,count,18,37742154)
     
 elif count == 'SAN MARINO':
-    country_def.country(lang,chart,count,115,33931)
+    country_def.country(lang,chart,count,116,33931)
     
 elif count == 'NEW ZEALAND':
     country_def.country(lang,chart,count,87,4822233)
     
 elif count == 'AUSTRALIA':
-    country_def.country(lang,chart,count,53,25499884)
+    country_def.country(lang,chart,count,55,25499884)
 
 elif count == 'BRAZIL':
     country_def.country(lang,chart,count,16,212559417)
