@@ -24,7 +24,7 @@ if count == "WORLD":
     country_def.country(lang,chart,count,7,7800000000)
 
 elif count == "ITALY":
-    country_def.country(lang,chart,count,11,60461826)
+    country_def.country(lang,chart,count,12,60461826)
 
 elif count == "SPAIN":
     country_def.country(lang,chart,count,9,46754778)
@@ -54,13 +54,13 @@ elif count == "SWEDEN":
     country_def.country(lang,chart,count,30,10099265)
     
 elif count == "DENMARK":
-    country_def.country(lang,chart,count,47,5792202)
+    country_def.country(lang,chart,count,49,5792202)
     
 elif count == "LUXEMBOURG":
     country_def.country(lang,chart,count,68,625978)
     
 elif count == "FINLAND":
-    country_def.country(lang,chart,count,59,5540720)
+    country_def.country(lang,chart,count,60,5540720)
 		
 elif count == "AUSTRIA":
     country_def.country(lang,chart,count,38,9006398)
@@ -69,13 +69,13 @@ elif count == "CZECHIA":
     country_def.country(lang,chart,count,54,10708981)
 	
 elif count == "IRELAND":
-    country_def.country(lang,chart,count,32,4937786)
+    country_def.country(lang,chart,count,34,4937786)
 	
 elif count == "ICELAND":
-    country_def.country(lang,chart,count,84,341243)
+    country_def.country(lang,chart,count,85,341243)
 	
 elif count == "CYPRUS":
-    country_def.country(lang,chart,count,104,1207359)
+    country_def.country(lang,chart,count,105,1207359)
 	
 elif count == "SWITZERLAND":
     country_def.country(lang,chart,count,26,8654622)
@@ -108,13 +108,13 @@ elif count == 'TURKEY':
     country_def.country(lang,chart,count,16,84339067)
 
 elif count == 'RUSSIA':
-    country_def.country(lang,chart,count,12,145934462)
+    country_def.country(lang,chart,count,11,145934462)
 
 elif count == 'CANADA':
-    country_def.country(lang,chart,count,18,37742154)
+    country_def.country(lang,chart,count,19,37742154)
     
 elif count == 'SAN MARINO':
-    country_def.country(lang,chart,count,122,33931)
+    country_def.country(lang,chart,count,123,33931)
     
 elif count == 'NEW ZEALAND':
     country_def.country(lang,chart,count,90,4822233)
