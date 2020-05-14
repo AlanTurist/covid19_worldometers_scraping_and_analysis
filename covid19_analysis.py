@@ -39,7 +39,7 @@ elif count == 'BELGIUM':
     country_def.country(lang,chart,count,21,11589623)
 
 elif count == "GREECE":
-    country_def.country(lang,chart,count,75,10423054)
+    country_def.country(lang,chart,count,77,10423054)
 
 elif count == "FRANCE":
     country_def.country(lang,chart,count,14,65273511)
@@ -48,13 +48,13 @@ elif count == "NORWAY":
     country_def.country(lang,chart,count,55,5421241)
     
 elif count == "PORTUGAL":
-    country_def.country(lang,chart,count,29,10196709)
+    country_def.country(lang,chart,count,30,10196709)
     
 elif count == "SWEDEN":
-    country_def.country(lang,chart,count,30,10099265)
+    country_def.country(lang,chart,count,29,10099265)
     
 elif count == "DENMARK":
-    country_def.country(lang,chart,count,50,5792202)
+    country_def.country(lang,chart,count,51,5792202)
     
 elif count == "LUXEMBOURG":
     country_def.country(lang,chart,count,69,625978)
@@ -72,10 +72,10 @@ elif count == "IRELAND":
     country_def.country(lang,chart,count,34,4937786)
 	
 elif count == "ICELAND":
-    country_def.country(lang,chart,count,87,341243)
+    country_def.country(lang,chart,count,88,341243)
 	
 elif count == "CYPRUS":
-    country_def.country(lang,chart,count,105,1207359)
+    country_def.country(lang,chart,count,109,1207359)
 	
 elif count == "SWITZERLAND":
     country_def.country(lang,chart,count,28,8654622)
@@ -114,7 +114,7 @@ elif count == 'CANADA':
     country_def.country(lang,chart,count,20,37742154)
     
 elif count == 'SAN MARINO':
-    country_def.country(lang,chart,count,123,33931)
+    country_def.country(lang,chart,count,124,33931)
     
 elif count == 'NEW ZEALAND':
     country_def.country(lang,chart,count,92,4822233)
