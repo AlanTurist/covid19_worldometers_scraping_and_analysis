@@ -21,7 +21,7 @@ print('\n')
 print('*'*110)
 
 if count == "WORLD":
-    country_def.country(lang,chart,count,7,7800000000)
+    country_def.country(lang,chart,count,0,7800000000)
 
 elif count == "ITALY":
     country_def.country(lang,chart,count,5,60461826)
@@ -33,7 +33,7 @@ elif count == "GERMANY":
     country_def.country(lang,chart,count,8,83783942)
     
 elif count == 'NETHERLANDS':
-    country_def.country(lang,chart,count,16,17134872)
+    country_def.country(lang,chart,count,17,17134872)
 
 elif count == 'BELGIUM':
     country_def.country(lang,chart,count,14,11589623)
@@ -60,7 +60,7 @@ elif count == "LUXEMBOURG":
     country_def.country(lang,chart,count,63,625978)
     
 elif count == "FINLAND":
-    country_def.country(lang,chart,count,55,5540720)
+    country_def.country(lang,chart,count,56,5540720)
 		
 elif count == "AUSTRIA":
     country_def.country(lang,chart,count,36,9006398)
@@ -75,10 +75,10 @@ elif count == "ICELAND":
     country_def.country(lang,chart,count,81,341243)
 	
 elif count == "CYPRUS":
-    country_def.country(lang,chart,count,104,1207359)
+    country_def.country(lang,chart,count,103,1207359)
 	
 elif count == "SWITZERLAND":
-    country_def.country(lang,chart,count,20,8654622)
+    country_def.country(lang,chart,count,22,8654622)
 	
 elif count == "UK":
     country_def.country(lang,chart,count,4,67886011)
@@ -87,7 +87,7 @@ elif count == 'USA':
     country_def.country(lang,chart,count,1,330657799)
 
 elif count == 'TURKEY':
-    country_def.country(lang,chart,count,16,84339067)
+    country_def.country(lang,chart,count,9,84339067)
 
 elif count == 'RUSSIA':
     country_def.country(lang,chart,count,3,145934462)
