@@ -23,89 +23,107 @@ print('*'*110)
 if count == "WORLD":
     country_def.country(lang,chart,count,0,7800000000)
 
+elif count == "NORTH AMERICA":
+    country_def.country(lang,chart,count,0,368617633)
+
+elif count == "EUROPE":
+    country_def.country(lang,chart,count,1,747585797)
+    
+elif count == "SOUTH AMERICA":
+    country_def.country(lang,chart,count,2,653312637)
+    
+elif count == 'ASIA':
+    country_def.country(lang,chart,count,3,4636642000)
+
+elif count == 'AFRICA':
+    country_def.country(lang,chart,count,4,1336955000)
+
+elif count == "OCEANIA":
+    country_def.country(lang,chart,count,5,42616559)
+
 elif count == "ITALY":
-    country_def.country(lang,chart,count,6,60461826)
+    country_def.country(lang,chart,count,13,60461826)
 
 elif count == "SPAIN":
-    country_def.country(lang,chart,count,3,46754778)
+    country_def.country(lang,chart,count,10,46754778)
     
 elif count == "GERMANY":
-    country_def.country(lang,chart,count,8,83783942)
+    country_def.country(lang,chart,count,15,83783942)
     
 elif count == 'NETHERLANDS':
-    country_def.country(lang,chart,count,18,17134872)
+    country_def.country(lang,chart,count,26,17134872)
 
 elif count == 'BELGIUM':
-    country_def.country(lang,chart,count,15,11589623)
+    country_def.country(lang,chart,count,22,11589623)
 
 elif count == "GREECE":
-    country_def.country(lang,chart,count,70,10423054)
+    country_def.country(lang,chart,count,80,10423054)
 
 elif count == "FRANCE":
-    country_def.country(lang,chart,count,7,65273511)
+    country_def.country(lang,chart,count,14,65273511)
     
 elif count == "NORWAY":
-    country_def.country(lang,chart,count,48,5421241)
+    country_def.country(lang,chart,count,56,5421241)
     
 elif count == "PORTUGAL":
-    country_def.country(lang,chart,count,25,10196709)
+    country_def.country(lang,chart,count,32,10196709)
     
 elif count == "SWEDEN":
-    country_def.country(lang,chart,count,24,10099265)
+    country_def.country(lang,chart,count,30,10099265)
     
 elif count == "DENMARK":
-    country_def.country(lang,chart,count,44,5792202)
+    country_def.country(lang,chart,count,50,5792202)
     
 elif count == "LUXEMBOURG":
-    country_def.country(lang,chart,count,64,625978)
+    country_def.country(lang,chart,count,71,625978)
     
 elif count == "FINLAND":
-    country_def.country(lang,chart,count,57,5540720)
+    country_def.country(lang,chart,count,65,5540720)
 		
 elif count == "AUSTRIA":
-    country_def.country(lang,chart,count,36,9006398)
+    country_def.country(lang,chart,count,46,9006398)
 	
 elif count == "CZECHIA":
-    country_def.country(lang,chart,count,47,10708981)
+    country_def.country(lang,chart,count,55,10708981)
 	
 elif count == "IRELAND":
-    country_def.country(lang,chart,count,27,4937786)
+    country_def.country(lang,chart,count,36,4937786)
 	
 elif count == "ICELAND":
-    country_def.country(lang,chart,count,83,341243)
+    country_def.country(lang,chart,count,92,341243)
 	
 elif count == "CYPRUS":
-    country_def.country(lang,chart,count,105,1207359)
+    country_def.country(lang,chart,count,113,1207359)
 	
 elif count == "SWITZERLAND":
-    country_def.country(lang,chart,count,22,8654622)
+    country_def.country(lang,chart,count,31,8654622)
 	
 elif count == "UK":
-    country_def.country(lang,chart,count,4,67886011)
+    country_def.country(lang,chart,count,12,67886011)
     
 elif count == 'USA':
-    country_def.country(lang,chart,count,1,330657799)
+    country_def.country(lang,chart,count,8,330657799)
 
 elif count == 'TURKEY':
-    country_def.country(lang,chart,count,9,84339067)
+    country_def.country(lang,chart,count,16,84339067)
 
 elif count == 'RUSSIA':
-    country_def.country(lang,chart,count,2,145934462)
+    country_def.country(lang,chart,count,9,145934462)
 
 elif count == 'CANADA':
-    country_def.country(lang,chart,count,13,37742154)
+    country_def.country(lang,chart,count,20,37742154)
     
 elif count == 'SAN MARINO':
-    country_def.country(lang,chart,count,117,33931)
+    country_def.country(lang,chart,count,127,33931)
     
 elif count == 'NEW ZEALAND':
-    country_def.country(lang,chart,count,88,4822233)
+    country_def.country(lang,chart,count,98,4822233)
     
 elif count == 'AUSTRALIA':
-    country_def.country(lang,chart,count,53,25499884)
+    country_def.country(lang,chart,count,61,25499884)
 
 elif count == 'BRAZIL':
-    country_def.country(lang,chart,count,5,212559417)
+    country_def.country(lang,chart,count,11,212559417)
     
 else:
     print("\nArea doesn't exists..\n")
