@@ -20,8 +20,8 @@
     <center>Output:</center>
     <br>
     <br>
-    <img src="https://github.com/AlanTurist/covid19_worldometers_scraping_and_analysis/blob/master/images/1.1.jpg" " width="500"    height="333">
-      <br>                                                                                                                                       <img src="https://github.com/AlanTurist/covid19_worldometers_scraping_and_analysis/blob/master/images/EUROPE.png" " width="500" height="333">
+    <img src="https://github.com/AlanTurist/covid19_worldometers_scraping_and_analysis/blob/master/old_version/images/1.1.jpg" " width="500"    height="333">
+      <br>                                                                                                                                       <img src="https://github.com/AlanTurist/covid19_worldometers_scraping_and_analysis/blob/master/old_version/images/EUROPE.png" " width="500" height="333">
    
    <center>Sources</center>
    <br>
