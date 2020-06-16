@@ -35,7 +35,7 @@
    <br>
        <a href="https://www.worldometers.info/coronavirus/" target="_blank">Worldometer.info</a>
    <br>
-   <a href="https://pypi.org/project/covid/" target="_blank">covid 2.2.10</a>
+   <a href="https://pypi.org/project/covid/" target="_blank">covid 2.2.11</a>
    </body>
   </html>
 
