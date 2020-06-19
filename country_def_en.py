@@ -48,11 +48,18 @@ def country_en(y):
     c.values
     for val in c:
         print('\n\t\t1.3  Compared to yesterday, the number of cases has increased by','{0:.2f}'.format(val),'%')
-
+    
     l = ((10000*a)/100)
-    l.values
-    r = ((1000*a)/100)
-    r.values
+    for val in l:
+        print("\n\t\t1.4 The cases in 10K of population are:",'{0:.1f}'.format(val))
+        for val in D9:
+            if val > 1000000:
+                j = ((1000000*a)/100)
+                for val in j:
+                    print("\n\t\t1.5 The cases in 1M of population are:",'{0:.1f}'.format(val))
+            else:
+                print('\n\t\t1.5 The area has a population less than a million..')
+
     
     for val in D3:
         print('\n\t2. The total number of deaths is:',val)
