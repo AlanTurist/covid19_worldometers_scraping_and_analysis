@@ -16,7 +16,7 @@ elif language == "EN":
     y = df[df["country"] == count1]
     country_def_en.country_en(y)
 else:
-    print("Wrong language..")
+    print("\nWrong language..")
 
 import os
 import sys
