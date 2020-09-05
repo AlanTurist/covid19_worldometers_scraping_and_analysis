@@ -137,7 +137,7 @@ def country_en(y):
             m = (100*D1)/val
             m.values
             for val in m:
-                print('\n\t\t6.1 Which the','{0:.2f}'.format(val),"% were positive")
+                print('\n\t\t6.1 Which the','{0:.2f}'.format(val),"% is positive")
                 s = ((100*D8)/D9)
                 s.values
                 for val in s:
