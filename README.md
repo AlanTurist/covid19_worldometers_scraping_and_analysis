@@ -19,7 +19,7 @@
     The <i>today_worldwide_covid19_data.csv</i> is updated daily.
     <br>
     <br>
-    The differences with the old_version are, now you can chech statistics for every country or area from the 224 on the .csv file
+    The differences with the old_version are that now you can check statistics for every country or area from the 224 on the .csv file
     <br>
     and you have to download the .exe only once as opposed to the old version you had to download it every day!
     <br>
