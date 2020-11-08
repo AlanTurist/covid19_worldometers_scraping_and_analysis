@@ -102,6 +102,18 @@ def country(x):
                 print('\n\t\t2.6 Οι θανάτοι ανά 1 εκατομμύριο πληθυσμού είναι:','{0:.1f}'.format(val))
         else:
             print('\n\t\t2.6 Η περιοχή έχει πληθυσμό λιγότερο του ενός εκατομμυρίου..')
+
+    for val in D9:
+        t = D9/D1
+        t.values
+        for val in t:
+            print('\n\t\t2.7 Υπάρχει 1 κρούσμα κάθε','{0:.2f}'.format(val),'άτομα')
+        
+    for val in D9:
+        u = D9/D3
+        u.values
+        for val in u:
+            print('\n\t\t2.8 Υπάρχει 1 θάνατος σε κάθε','{0:.2f}'.format(val),'άτομα')
     
     for val in D4:
         if val != 0:
@@ -142,6 +154,12 @@ def country(x):
                     print('\n\t\t6.2 Έχουν πραγματοποιηθεί δειγματοληψίες στο','{0:.2f}'.format(val),'% του πληθυσμού της περιοχής')
         else:
             print('\n\t6. Δεν υπάρχουν δεδομένα για δειγματοληψίες..')
+
+    for val in D9:
+        p = D9/D8
+        p.values
+        for val in p:
+            print('\n\t\t6.2 Πραγματοποιήθηκε 1 τεστ σε κάθε','{0:.2f}'.format(val),'άτομα')
     
     print('\n')
     print('*'*110)
