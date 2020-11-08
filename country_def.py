@@ -107,7 +107,7 @@ def country(x):
         t = D9/D1
         t.values
         for val in t:
-            print('\n\t\t2.7 Υπάρχει 1 κρούσμα κάθε','{0:.2f}'.format(val),'άτομα')
+            print('\n\t\t2.7 Υπάρχει 1 κρούσμα σε κάθε','{0:.2f}'.format(val),'άτομα')
         
     for val in D9:
         u = D9/D3
