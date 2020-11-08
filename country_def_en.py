@@ -59,6 +59,12 @@ def country_en(y):
             else:
                 print('\n\t\t1.5 The area has a population less than a million..')
 
+        for val in D9:
+        t = D9/D1
+        t.values
+        for val in t:
+            print('\n\t\t1.6 There is 1 case for every','{0:.2f}'.format(val),'inhabitants')
+
     
     for val in D3:
         print('\n\t2. The total number of deaths is:',val)
@@ -103,18 +109,12 @@ def country_en(y):
                 print('\n\t\t2.6 The deaths for every 1M of inhabitants are:','{0:.1f}'.format(val))
         else:
             print('\n\t\t2.6 The area has a population less than a million..')
-
-    for val in D9:
-        t = D9/D1
-        t.values
-        for val in t:
-            print('\n\t\t2.7 There is 1 case for every','{0:.2f}'.format(val),'inhabitants')
         
     for val in D9:
         u = D9/D3
         u.values
         for val in u:
-            print('\n\t\t2.8 There is 1 death for every','{0:.2f}'.format(val),'inhabitants')
+            print('\n\t\t2.7 There is 1 death for every','{0:.2f}'.format(val),'inhabitants')
     
     for val in D4:
         if val != 0:
