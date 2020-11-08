@@ -60,10 +60,10 @@ def country_en(y):
                 print('\n\t\t1.5 The area has a population less than a million..')
 
         for val in D9:
-        t = D9/D1
-        t.values
-        for val in t:
-            print('\n\t\t1.6 There is 1 case for every','{0:.2f}'.format(val),'inhabitants')
+            t = D9/D1
+            t.values
+            for val in t:
+                print('\n\t\t1.6 There is 1 case for every','{0:.2f}'.format(val),'inhabitants')
 
     
     for val in D3:
