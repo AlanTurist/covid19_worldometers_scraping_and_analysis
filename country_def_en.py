@@ -2,7 +2,6 @@ import datetime
 data = datetime.datetime.now()
 data1 = data.strftime("%d-%m-%Y %H:%M:%S")
 
-
 def country_en(y):
     D1 = y['confirmed']
     D2 = y['new_cases']
@@ -104,6 +103,18 @@ def country_en(y):
                 print('\n\t\t2.6 The deaths for every 1M of inhabitants are:','{0:.1f}'.format(val))
         else:
             print('\n\t\t2.6 The area has a population less than a million..')
+
+    for val in D9:
+        t = D9/D1
+        t.values
+        for val in t:
+            print('\n\t\t2.7 There is 1 case for every','{0:.2f}'.format(val),'inhabitants')
+        
+    for val in D9:
+        u = D9/D3
+        u.values
+        for val in u:
+            print('\n\t\t2.8 There is 1 death for every','{0:.2f}'.format(val),'inhabitants')
     
     for val in D4:
         if val != 0:
@@ -144,6 +155,12 @@ def country_en(y):
                     print('\n\t\t6.2 The samples were taken from the','{0:.2f}'.format(val),'% of the population of the area')
         else:
             print('\n\t6. There are no data for tests..')
+
+    for val in D9:
+        p = D9/D8
+        p.values
+        for val in p:
+            print('\n\t\t6.2 Was perfomed 1 test for every','{0:.2f}'.format(val),'inhabitants')
     
     print('\n')
     print('*'*110)
