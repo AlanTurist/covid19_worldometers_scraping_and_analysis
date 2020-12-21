@@ -37,7 +37,7 @@ def country(x):
     a = (100*D1)/D9
     a.values
     for val in a:
-        print('\n\t\t1.1 Μολύνθηκε το','{0:.2f}'.format(val),'% της περιοχής.')
+        print('\n\t\t1.1 Μολύνθηκε το','{0:.2f}'.format(val),'% της χώρας.')
 
     for val in D2:
         print("\n\t\t1.2 Ο αριθμός των νέων κρουσμάτων είναι:",val)
