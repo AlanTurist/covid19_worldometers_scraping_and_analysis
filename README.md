@@ -8,12 +8,12 @@
   <br>
   <br>
   <body>
-    <center>The web scraper <i>worldosmeters_scraper.exe</i> takes all the data from worldometers.info and creates the <i>today_worldwide_covid19_data.csv</i> data base for all the countries daily. And after that, <i>covid19_analysis_2.1.py</i> analyzes all the data.
+    <center>The web scraper <i>worldosmeters_scraper.exe</i> takes all the data from worldometers.info and creates the <i>today_worldwide_covid19_data.csv</i> data base for all the countries daily. And after that, <i>covid19_analysis_2.2.py</i> analyzes all the data.
     The script is available in two laguages, Greek and English. Just type 'GR' for Greek or 'EN' for English.
     </center>
     <br>
     <br>
-    If you like to test the script, just download <i>covid19_analysis_2.1.exe</i> and run it.
+    If you like to test the script, just download <i>covid19_analysis_2.2.exe</i> and run it.
     <br>
     <br>
     The <i>today_worldwide_covid19_data.csv</i> is updated daily.
