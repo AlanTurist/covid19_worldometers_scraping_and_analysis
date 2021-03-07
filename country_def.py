@@ -128,7 +128,7 @@ def country(x):
     for val in D6:
         print('\n\t4. Ο αριθμός των σοβαρών περιστατικών είναι:',val)
 
-    i = (100*D6)/D1
+    i = (100*D6)/(D1 - D4)
     i.values
     for val in i:
         print('\n\t\t4.1 Σοβαρά είναι το','{0:.2f}'.format(val),'%')
@@ -136,7 +136,7 @@ def country(x):
     for val in D5:
         print('\n\t5. Ο αριθμός των ενεργών κρουσμάτων είναι:',val)
 
-    k = (100*D5)/D1
+    k = (100*D5)/(D1 - D4)
     k.values
     for val in k:
         print('\n\t\t5.1 Τα ενεργά κρούσματα είναι','{0:.1f}'.format(val),'%')
