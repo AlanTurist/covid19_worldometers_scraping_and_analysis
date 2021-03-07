@@ -129,7 +129,7 @@ def country_en(y):
     for val in D6:
         print('\n\t4. The number of critical cases is:',val)
 
-    i = (100*D6)/D1
+    i = (100*D6)/(D1 - D4)
     i.values
     for val in i:
         print('\n\t\t4.1 The critical cases are the','{0:.2f}'.format(val),'%')
@@ -137,7 +137,7 @@ def country_en(y):
     for val in D5:
         print('\n\t5. The number of active cases is:',val)
 
-    k = (100*D5)/D1
+    k = (100*D5)/(D1 - D4)
     k.values
     for val in k:
         print('\n\t\t5.1 The active cases are the','{0:.1f}'.format(val),'%')
